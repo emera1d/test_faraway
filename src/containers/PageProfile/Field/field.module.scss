@@ -1,0 +1,46 @@
+.field {
+	display: flex;
+	flex: 1;
+	min-height: 40px;
+	max-height: 40px;
+	margin-bottom: 8px;
+	border-radius: 4px;
+
+	cursor: pointer;
+
+	&.iseditmode {
+		cursor: default;
+	}
+
+	&:hover {
+		background: rgba(0, 0, 0, .03);
+	}
+}
+
+.name,
+.value {
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	padding: 0 8px;
+	// border: 1px solid red;
+}
+
+.name {
+	flex: 0 0 80px;
+}
+
+.value {
+	flex: 1;
+	padding-right: 16px;
+}
+
+.valueview {}
+
+.input {
+
+}
+
+.isfocused {
+	background: rgba(0, 0, 0, .05);
+}
